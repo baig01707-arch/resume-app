@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#070b14">
+    <meta name="description" content="Shahid Baig - Aspiring DevOps Engineer portfolio">
+    <title>Shahid Baig | DevOps Portfolio</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+
+    <nav class="navbar">
+        <a href="#" class="logo">SB<span>.</span></a>
+
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="status">
+                    <span class="status-dot"></span>
+                    OPEN TO OPPORTUNITIES
+                </div>
+
+                <p class="eyebrow">HELLO, I'M</p>
+                <h1>Shahid <span>Baig</span></h1>
+
+                <h2>Aspiring DevOps Engineer</h2>
+
+                <p class="hero-description">
+                    Passionate about cloud infrastructure, automation,
+                    containerization and CI/CD. Building practical projects
+                    and learning modern DevOps technologies.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore Projects ↗
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="location">
+                    <span>⌖</span> Miraj, Maharashtra, India
+                </div>
+            </div>
+
+            <div class="terminal-card">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <span>devops.sh</span>
+                </div>
+
+                <div class="terminal-body">
+                    <p><span class="terminal-blue">$</span> whoami</p>
+                    <p class="terminal-output">shahid-baig</p>
+
+                    <p><span class="terminal-blue">$</span> current_focus</p>
+                    <p class="terminal-output">Cloud & DevOps</p>
+
+                    <p><span class="terminal-blue">$</span> skills</p>
+                    <p class="terminal-green">
+                        AWS | Docker | Jenkins | Kubernetes
+                    </p>
+
+                    <p><span class="terminal-blue">$</span> status</p>
+                    <p class="terminal-green">Learning. Building. Improving.</p>
+                    <p class="cursor-line">_</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-card">
+                <div class="about-icon">✦</div>
+                <div>
+                    <h3>My DevOps Journey</h3>
+                    <p>
+                        I have completed a Bachelor of Arts in History from
+                        Shivaji University, Kolhapur. I am developing my
+                        technical skills through hands-on DevOps training
+                        and practical projects. My interests include AWS
+                        cloud services, Linux, infrastructure automation,
+                        containers and CI/CD pipelines.
+                    </p>
+                    <p class="education">
+                        <strong>Education:</strong> B.A. History
+                        <br>
+                        <strong>University:</strong> Shivaji University, Kolhapur
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">MY TOOLKIT</p>
+                <h2>Technical <span>Skills</span></h2>
+                <p class="section-description">
+                    Technologies I have studied and practised in projects.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon">☁</div>
+                    <h3>AWS Cloud</h3>
+                    <p>EC2, S3, IAM, EBS, ALB, ASG, VPC, RDS, Lambda,
+                       Route 53, CloudFront, CloudWatch, CloudFormation</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">⌘</div>
+                    <h3>Operating System</h3>
+                    <p>Linux, Ubuntu, command-line operations,
+                       permissions and process management</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">⟡</div>
+                    <h3>Version Control</h3>
+                    <p>Git, GitHub, GitLab, branches, merging
+                       and collaboration workflows</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">▣</div>
+                    <h3>Containers & CI/CD</h3>
+                    <p>Docker, Jenkins, Maven, container builds
+                       and pipeline fundamentals</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">⚙</div>
+                    <h3>Automation & IaC</h3>
+                    <p>Shell Scripting, Terraform and Ansible</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">◈</div>
+                    <h3>Orchestration & AI</h3>
+                    <p>Kubernetes and Agentic AI fundamentals</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I'VE BUILT</p>
+                <h2>Featured <span>Projects</span></h2>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-symbol">⌘</span>
+                        <span class="project-label">01 / WEB APP</span>
+                    </div>
+                    <h3>Resume Portfolio Website</h3>
+                    <p>
+                        A Flask-based resume website deployed on AWS EC2,
+                        featuring HTML templates and custom CSS styling.
+                    </p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>AWS EC2</span>
+                    </div>
+                    <a class="project-link"
+                       href="https://github.com/baig01707-arch"
+                       target="_blank" rel="noopener noreferrer">
+                        View GitHub Profile ↗
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-symbol">⟳</span>
+                        <span class="project-label">02 / DEVOPS</span>
+                    </div>
+                    <h3>CI/CD & Container Projects</h3>
+                    <p>
+                        Practical learning projects involving Git,
+                        Docker and Jenkins pipelines. Add your actual
+                        project details and repository link here.
+                    </p>
+                    <div class="tags">
+                        <span>Git</span>
+                        <span>Docker</span>
+                        <span>Jenkins</span>
+                    </div>
+                    <a class="project-link"
+                       href="https://github.com/baig01707-arch"
+                       target="_blank" rel="noopener noreferrer">
+                        Explore Repositories ↗
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Build Something <span>Great</span></h2>
+                <p class="section-description">
+                    Interested in DevOps opportunities or technical
+                    collaboration? Let's connect.
+                </p>
+            </div>
+
+            <a class="btn btn-primary"
+               href="https://github.com/baig01707-arch"
+               target="_blank" rel="noopener noreferrer">
+                Visit My GitHub ↗
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed & built by <span>Shahid Baig</span></p>
+        <p>Learning every day. Building for tomorrow.</p>
+    </footer>
+</body>
+</html>
